@@ -1,0 +1,14 @@
+[
+    {
+        "id": 10,
+        "nome": "charizard",
+        "peso": 10.00,
+        "img": ""
+    },
+    {
+        "id": 12,
+        "nome": "charmander",
+        "peso": 10.00,
+        "img": ""
+    }
+]
