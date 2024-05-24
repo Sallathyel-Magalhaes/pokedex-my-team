@@ -27,7 +27,7 @@ export const Navigation = () => {
     <header className='container'>
       <Link to='/' className='logo'>
         <img
-          src='src\assets\Pokédex_logo.png'
+          src='src\assets\logo.png'
           alt='Logo Pokedex'
         />
       </Link>
