@@ -502,7 +502,6 @@ Styles of Pokemon Single Page
 }
 
 .btn-fav button .text {
-	transform: translateX(35px);
 	color: white;
 	font-weight: bold;
 }
@@ -510,7 +509,7 @@ Styles of Pokemon Single Page
 .btn-fav button .icon {
 	position: absolute;
 	border-left: 1px solid white;
-	transform: translateX(110px);
+	transform: translateX(65px);
 	height: 40px;
 	width: 40px;
 	display: flex;
