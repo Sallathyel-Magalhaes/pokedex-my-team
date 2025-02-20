@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { Link, Outlet, useNavigate } from 'react-router-dom';
 import { PokemonContext } from '../context/PokemonContext';
+import { 'Pokédex_logo.png' } from '../assets/Pokédex_logo.png'
 
 
 export const Navigation = () => {
@@ -27,7 +28,7 @@ export const Navigation = () => {
     <header className='container'>
       <Link to='/' className='logo'>
         <img
-          src='../assets/logo.png'
+          src='../assets/Pokédex_logo.png'
           alt='Logo Pokedex'
         />
       </Link>
