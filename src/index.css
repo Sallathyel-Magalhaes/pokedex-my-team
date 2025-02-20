@@ -491,9 +491,11 @@ Styles of Pokemon Single Page
 	border-radius: 15px;
 	cursor: pointer;
 	font-size: 12px;
-    width: 100px;
-    height: 30px;
-	float: right ;
+    	width: 100px;
+    	height: 30px;
+	position: absolute;
+    	margin-top: -80px;
+    	margin-left: 170px;
 }
 
 .favoritar a {
