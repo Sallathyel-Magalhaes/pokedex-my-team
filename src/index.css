@@ -483,75 +483,76 @@ Styles of Pokemon Single Page
 }
 
 .btn-fav button {
-  width: 150px;
-  height: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  background: #33309a;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-  background: #33309a;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	background: #33309a;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+	background: #33309a;
+	justify-content: center;
 }
 
 .btn-fav button,
 .btn-fav button span {
-  transition: 200ms;
+	transition: 200ms;
 }
 
 .btn-fav button .text {
-  transform: translateX(35px);
-  color: white;
-  font-weight: bold;
+	transform: translateX(35px);
+	color: white;
+	font-weight: bold;
 }
 
 .btn-fav button .icon {
-  position: absolute;
-  border-left: 1px solid #007300;
-  transform: translateX(110px);
-  height: 40px;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	position: absolute;
+	border-left: 1px solid white;
+	transform: translateX(110px);
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .btn-fav button svg {
-  width: 15px;
-  fill: white;
+	width: 15px;
+	fill: white;
 }
 
 .btn-fav button:hover {
-  background: #30b130;
+	background: #30b130;
 }
 
 .btn-fav button:active {
-  background: #30b130;
+	background: #30b130;
 }
 
 .btn-fav button:hover .text {
-  color: transparent;
+	color: transparent;
 }
 
 .btn-fav button:hover .icon {
-  width: 150px;
-  border-left: none;
-  transform: translateX(0);
+	width: 150px;
+	border-left: none;
+	transform: translateX(0);
 }
 
 .btn-fav button:focus {
-  outline: none;
+	outline: none;
 }
 
 .btn-fav button:active .icon svg {
-  transform: scale(0.8);
+	transform: scale(0.8);
 }
 
 .buttonSpan {
-  color: white;
-  margin: 150px;
-  font-size: 30px;
+	color: white;
+	margin: 150px;
+	font-size: 30px;
 }
 
 .estiloCard {
@@ -560,5 +561,5 @@ Styles of Pokemon Single Page
 	box-sizing: content-box;
 	gap: 20px;
 	margin-bottom: 15px;
-    margin-left: 30px;
+	margin-left: 30px;
 }
