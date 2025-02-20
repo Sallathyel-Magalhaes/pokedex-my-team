@@ -37,13 +37,13 @@ export const CardPokemon = ({ pokemon }) => {
 
 
 					</div>
-					<button className='favoritar' onClick={addMyTeam}>Adicionar ao Time</button>
+					
 
 				</div>
 
 			</Link>
 			
-			
+			<button className='favoritar' onClick={addMyTeam}>Adicionar ao Time</button>
 		</Container>
 
 
