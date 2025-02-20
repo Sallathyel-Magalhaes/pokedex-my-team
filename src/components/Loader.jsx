@@ -1,4 +1,4 @@
-import { DotSpinner } from '@uiball/loaders';
+import { DotSpinner } from '@uiball/loaders'
 
 export const Loader = () => {
 	return (
