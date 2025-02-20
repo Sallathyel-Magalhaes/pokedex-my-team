@@ -515,7 +515,6 @@ Styles of Pokemon Single Page
 	width: 40px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 }
 
 .btn-fav button svg {
