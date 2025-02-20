@@ -130,12 +130,13 @@ header form {
 	grid-template-columns: repeat(3, 1fr);
 	box-sizing: content-box;
 	gap: 20px;
+	background-color: white;
+	
 }
 
 .card-pokemon {
 	cursor: pointer;
 	text-decoration: none;
-	background-color: white;
 }
 
 .card-img {
