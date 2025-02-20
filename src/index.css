@@ -67,7 +67,7 @@ header form {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-
+	background-color: white;
 	border: 1px solid #555;
 	padding: 15px 20px;
 	border-radius: 25px;
@@ -76,7 +76,6 @@ header form {
 .form-group input {
 	/* padding: 15px 30px; */
 	font-family: inherit;
-	background-color: white;
 	width: 300px;
 	border: none;
 	outline: none;
