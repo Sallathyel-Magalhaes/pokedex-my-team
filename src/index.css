@@ -482,18 +482,17 @@ Styles of Pokemon Single Page
 	background-color: #4592c4;
 }
 
-/* From Uiverse.io by UtariD86 */ 
 button {
   width: 150px;
   height: 50px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  background: #00a600;
+  background: #33309a;
   border: none;
   border-radius: 5px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-  background: #00a600;
+  background: #33309a;
 }
 
 button,
@@ -524,11 +523,11 @@ button svg {
 }
 
 button:hover {
-  background: #00a600;
+  background: #e8d10e;
 }
 
 button:active {
-  background: #00cc00;
+  background: #e8d10e;
 }
 
 button:hover .text {
