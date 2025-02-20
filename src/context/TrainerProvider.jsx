@@ -34,7 +34,6 @@ export const TrainerProvider = ({ children }) => {
 
     function getData() {
         const data = localStorage.getItem(nameTable);
-        console.log(data)
 
         if (data)
             setBag(JSON.parse(data))
