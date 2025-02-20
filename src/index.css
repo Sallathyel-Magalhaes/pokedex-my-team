@@ -274,7 +274,7 @@ header form {
 	width: 160px;
 	color: #555;
 	background-color: #dab500;
-	border: 4px solid #1914c0;
+	box-shadow: 5px 0 10px rgba(25, 20, 192, 0.5);
 	height: 100%;
 	padding-top: 40px;
 	transition: all 0.3s linear;
