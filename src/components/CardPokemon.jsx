@@ -43,7 +43,7 @@ export const CardPokemon = ({ pokemon }) => {
 
 			</Link>
 			<div class='btn-fav'>
-			<button className='favoritar' onClick={addMyTeam} class="noselect"><span class="text">Add Time</span><span class="icon"><svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"></svg><span class="buttonSpan">+</span></span></button>
+			<button className='favoritar' onClick={addPokemon} class="noselect"><span class="text">Add Time</span><span class="icon"><svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"></svg><span class="buttonSpan">+</span></span></button>
 			</div>
 		</Container>
 
