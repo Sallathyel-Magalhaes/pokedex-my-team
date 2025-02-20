@@ -165,7 +165,6 @@ header form {
 .card-info {
 	padding: 15px;
 	background-color: white; /* Fundo branco nas informações */
-	border-radius: 0 0 10px 10px; /* Arredondar a parte inferior */
 }
 
 .card-info h3 {
@@ -490,7 +489,7 @@ Styles of Pokemon Single Page
 	align-items: center;
 	background: #33309a;
 	border: none;
-	border-radius: 5px;
+	border-radius: 0 0 10px 10px; /* Arredondar a parte inferior */
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
 	background: #33309a;
 	justify-content: space-around;
