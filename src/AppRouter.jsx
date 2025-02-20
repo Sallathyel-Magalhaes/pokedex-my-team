@@ -17,7 +17,7 @@ export const AppRouter = () => {
 				<Route index element={<HomePage />} />
 				<Route path='pokemon/:id' element={<PokemonPage />} />
 				<Route path='search' element={<SearchPage />} />
-				<Route time element={<MeuTime />} />
+				<Route path='time' element={<MeuTime />} />
 
 			</Route>
 
