@@ -482,7 +482,7 @@ Styles of Pokemon Single Page
 	background-color: #4592c4;
 }
 
-button {
+.btn-fav button {
   width: 150px;
   height: 50px;
   cursor: pointer;
@@ -495,18 +495,18 @@ button {
   background: #33309a;
 }
 
-button,
-button span {
+.btn-fav button,
+.btn-fav button span {
   transition: 200ms;
 }
 
-button .text {
+.btn-fav button .text {
   transform: translateX(35px);
   color: white;
   font-weight: bold;
 }
 
-button .icon {
+.btn-fav button .icon {
   position: absolute;
   border-left: 1px solid #007300;
   transform: translateX(110px);
@@ -517,34 +517,34 @@ button .icon {
   justify-content: center;
 }
 
-button svg {
+.btn-fav button svg {
   width: 15px;
-  fill: #eee;
+  fill: white;
 }
 
-button:hover {
-  background: #e8d10e;
+.btn-fav button:hover {
+  background: #30b130;
 }
 
-button:active {
-  background: #e8d10e;
+.btn-fav button:active {
+  background: #30b130;
 }
 
-button:hover .text {
+.btn-fav button:hover .text {
   color: transparent;
 }
 
-button:hover .icon {
+.btn-fav button:hover .icon {
   width: 150px;
   border-left: none;
   transform: translateX(0);
 }
 
-button:focus {
+.btn-fav button:focus {
   outline: none;
 }
 
-button:active .icon svg {
+.btn-fav button:active .icon svg {
   transform: scale(0.8);
 }
 
