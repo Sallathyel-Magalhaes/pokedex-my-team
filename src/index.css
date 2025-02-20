@@ -130,8 +130,6 @@ header form {
 	grid-template-columns: repeat(3, 1fr);
 	box-sizing: content-box;
 	gap: 20px;
-	background-color: white;
-	
 }
 
 .card-pokemon {
@@ -155,6 +153,8 @@ header form {
 
 .card-info {
 	padding: 15px;
+	background-color: white;
+	
 }
 
 .card-info h3 {
