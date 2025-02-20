@@ -76,6 +76,7 @@ header form {
 .form-group input {
 	/* padding: 15px 30px; */
 	font-family: inherit;
+	background-color: white;
 	width: 300px;
 	border: none;
 	outline: none;
