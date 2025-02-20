@@ -493,7 +493,7 @@ Styles of Pokemon Single Page
 	border-radius: 5px;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
 	background: #33309a;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 .btn-fav button,
@@ -515,6 +515,7 @@ Styles of Pokemon Single Page
 	width: 40px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .btn-fav button svg {
