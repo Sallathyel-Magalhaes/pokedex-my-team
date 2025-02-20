@@ -2,8 +2,8 @@ import { DotSpinner } from '@uiball/loaders'
 
 export const Loader = () => {
 	return (
-        <div className="container-loader">
-            <DotSpinner size={40} speed={0.9} color='black' />
-        </div>
+        <div class="wrapper">
+  		<div class="pokeball"></div>
+	</div>
     )
 };
