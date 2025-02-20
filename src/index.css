@@ -48,7 +48,6 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
 	padding: 40px 0;
 }
 
@@ -59,7 +58,6 @@ header {
 header form {
 	display: flex;
 	align-items: center;
-
 	gap: 15px;
 }
 
@@ -110,14 +108,12 @@ header form {
 .container-filter {
 	display: flex;
 	width: max-content;
- 
 }
 
 .icon-filter {
 	display: flex;
 	align-items: center;
 	gap: 15px;
-
 	margin-bottom: 20px;
 	cursor: pointer;
 }
@@ -139,11 +135,12 @@ header form {
 .card-pokemon {
 	cursor: pointer;
 	text-decoration: none;
+	background-color: #f2f2f2;
+	background-color: white;
 }
 
 .card-img {
 	background-color: #f2f2f2;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
